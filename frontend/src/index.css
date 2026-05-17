@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ll-bg: #172A3A;
+  --ll-sb: #0D1F2D;
+  --ll-deep: #004346;
+  --ll-s1: rgba(0, 67, 70, 0.45);
+  --ll-s2: rgba(0, 67, 70, 0.7);
+  --ll-b1: rgba(80, 137, 145, 0.22);
+  --ll-b2: rgba(116, 179, 206, 0.3);
+  --ll-mint: #D6F3F4;
+  --ll-blue: #74B3CE;
+  --ll-muted: #508991;
+  --ll-red: #E55C6C;
+  --ll-red-d: rgba(229, 92, 108, 0.14);
+  --ll-grn: #4ECBA0;
+  --ll-grn-d: rgba(78, 203, 160, 0.14);
+  --ll-amb: #F0A05A;
+  --ll-amb-d: rgba(240, 160, 90, 0.14);
+  --ll-pur: #7B8FD4;
+  --ll-pur-d: rgba(123, 143, 212, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ll-bg);
+  color: var(--ll-mint);
+  font-family: 'Syne', sans-serif;
+  line-height: 1.5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--ll-b2); border-radius: 2px; }
+
+/* Reusable panel */
+.ll-panel {
+  background: var(--ll-s1);
+  border: 0.5px solid var(--ll-b1);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+/* Reusable surface */
+.ll-surface {
+  background: var(--ll-s2);
+  border: 0.5px solid var(--ll-b1);
+  border-radius: 8px;
+}
+
+/* Pulse animation for live indicator */
+@keyframes ll-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+.ll-pulse {
+  animation: ll-pulse 1.4s ease infinite;
+}
+
+/* Stat card top accent */
+.ll-card-red::before  { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--ll-red); border-radius: 10px 10px 0 0; }
+.ll-card-grn::before  { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--ll-grn); border-radius: 10px 10px 0 0; }
+.ll-card-blue::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--ll-blue); border-radius: 10px 10px 0 0; }
+.ll-card-amb::before  { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--ll-amb); border-radius: 10px 10px 0 0; }
