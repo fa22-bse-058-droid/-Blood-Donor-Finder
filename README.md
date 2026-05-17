@@ -65,7 +65,21 @@ No middlemen. No manual searching. Direct, privacy-respecting contact.
 | Active Requests Feed | Browse all currently pending blood requests |
 | Admin Panel | Django admin for full data management |
 
----
+
+<p align="center">
+<img width="1919" height="827" alt="image" src="https://github.com/user-attachments/assets/a92a91cb-7132-4cfb-9465-21ed15dc326b" />
+
+
+
+  <img width="1919" height="431" alt="image" src="https://github.com/user-attachments/assets/be67b87f-e8cb-43d3-b70a-7045259779cb" />
+
+  <img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/f87bbc65-7abc-4e27-881f-54ad2481694a" />
+
+
+
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/4b2967b1-9389-4a68-8f38-d61bb294e01b" />
+
+</p>
 
 ## 🛠 Tech Stack
 
