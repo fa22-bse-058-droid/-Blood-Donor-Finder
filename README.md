@@ -41,8 +41,11 @@ Blood Donor Finder solves a critical real-world problem: when a patient urgently
 - Shares the **donor's contact details** with the requester only after the donor confirms availability
 
 No middlemen. No manual searching. Direct, privacy-respecting contact.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/24e318ab-410e-487b-ab1c-3f6b26e325fd" width="900" alt="LifeLink AI Dashboard" />
+<img width="1919" height="908" alt="Screenshot 2026-05-18 003305" src="https://github.com/user-attachments/assets/27cba990-e1b4-4302-a5a0-876a83f815cf" />
+</p>
 
----
 
 ## ✨ Features
 
