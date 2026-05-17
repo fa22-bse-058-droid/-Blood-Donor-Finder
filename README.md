@@ -42,8 +42,13 @@ Blood Donor Finder solves a critical real-world problem: when a patient urgently
 
 No middlemen. No manual searching. Direct, privacy-respecting contact.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/24e318ab-410e-487b-ab1c-3f6b26e325fd" width="900" alt="LifeLink AI Dashboard" />
 <img width="1919" height="908" alt="Screenshot 2026-05-18 003305" src="https://github.com/user-attachments/assets/27cba990-e1b4-4302-a5a0-876a83f815cf" />
+
+<img width="1918" height="888" alt="image" src="https://github.com/user-attachments/assets/2ac5f95e-8247-4d1f-be6e-f3ab7df6aac3" />
+
+
+  <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/4935cff3-34e0-40af-a928-2c82ddcce6ee" />
+
 </p>
 
 
